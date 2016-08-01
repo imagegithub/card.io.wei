@@ -54,10 +54,10 @@ DMZ_INTERNAL void scan_card_image(IplImage *y, bool collect_card_number, bool sc
     // Unsurprising, since this is the hardest phase of the pipeline, and we're struggling
     // just to find anything at all!
     //
-    //  if(!result->usable) {
-    //    cvResetImageROI(y);
-    //    return result;
-    //  }
+      //if(!result->usable) {
+       // cvResetImageROI(y);
+   //     return result;
+     // }
     
     result->scores = number_scores(y, result->hseg);
     float number_score = result->hseg.n_offsets - result->scores.sum();

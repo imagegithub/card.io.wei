@@ -15,7 +15,7 @@
   #define dmz_trace_log(format_string, ...)
 #endif
 
-#if (DMZ_DEBUG && ANDROID_DMZ)
+#if (1)
 
   #include <android/log.h>
 
