@@ -54,6 +54,6 @@ dependencies {
     } else {
         compile 'io.card:android-sdk:REPLACE_VERSION'
     }
-//    compile 'com.wei.view:as_lib_CustomerView:1.0.2'
+//    compile 'com.wei.utils:as_lib_CustomerUtils:1.0.2'
 }
 
